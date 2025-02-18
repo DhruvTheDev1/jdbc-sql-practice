@@ -1,18 +1,19 @@
-## Getting Started
+## JDBC SQL Practice
+Simple practice project to get familiar with JDBC (Java Database Connectivity) using MySQL.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Database
+Creating a simple database using MySQL Workbench that stores user id's, first name and last name.
+The program executes CRUD operations such as adding new users, searching by last name, printing results, etc.
 
-## Folder Structure
+## Notes
+This is purely a simple practice project meant to learn and understand JDBC concepts and execute SQL queries in Java.
+> The program currently does not include the connection url, username and password.
 
-The workspace contains two folders by default, where:
+## Example
+Searching for a user whos last name ends with 'Smith'
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![image](https://github.com/user-attachments/assets/a6b5859a-b809-4a50-a1a9-ad7aaade9310)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+MySQL Workbench
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://github.com/user-attachments/assets/07f51200-7a54-445f-9996-a77dff76d190)
